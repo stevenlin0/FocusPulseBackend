@@ -1,0 +1,38 @@
+
+### Welcome Endpoint
+POST http://localhost:8080/
+Accept: text/plain
+
+###
+
+### Get Settings
+GET http://localhost:8080/settings
+Accept: application/json
+
+###
+
+### Update Settings
+POST http://localhost:8080/settings
+Content-Type: application/json
+
+{
+  "focus_minutes": 30,
+  "break_minutes": 10
+}
+
+###
+
+### Get Sessions
+GET http://localhost:8080/sessions
+Accept: application/json
+
+###
+
+### Add Session
+POST http://localhost:8080/sessions
+Content-Type: application/json
+
+{
+  "session_date": "2025-07-16",
+  "focus_minutes": 45
+}
