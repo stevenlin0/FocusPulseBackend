@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FocusPulse</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>FocusPulse</h1>
+    <div class="session-badge">
+        <span id="session-count">0</span> sessions
+    </div>
+</header>
+
+<main class="container">
+    <section class="timer-section">
+        <div id="status-text">Focus Session</div>
+        <div id="timer-display" class="timer">25:00</div>
+    </section>
+
+    <section class="controls">
+        <button id="start-pause-btn">▶ Start</button>
+        <button id="reset-btn">↻ Reset</button>
+    </section>
+
+    <section class="progress-section">
+        <h2>Today's Progress</h2>
+        <button id="clear-history-btn">Clear History</button>
+        <button id="show-history-btn" onclick="location.href='history.html'">Show History</button>
+        <div class="progress-grid">
+            <div class="progress-card">
+                <div id="completed-sessions">0</div>
+                <div>Completed Sessions</div>
+            </div>
+            <div class="progress-card">
+                <div id="focus-time">0h 0m</div>
+                <div>Focus Time</div>
+            </div>
+            <div class="progress-card">
+                <div id="current-streak">0</div>
+                <div>Current Streak</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="settings-section">
+        <h2>Timer Settings</h2>
+        <div class="settings-grid">
+            <div class="form-group">
+                <label>Focus Duration</label>
+                <input type="number" min="1" id="focus-duration" />
+            </div>
+            <div class="form-group">
+                <label>Break Duration</label>
+                <input type="number" min="1" id="break-duration" />
+            </div>
+        </div>
+        <br/>
+        <button id="save-settings-btn">Save Settings</button>
+    </section>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+  /* Base body and text */
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: #f9fafb;
+    margin: 0;
+    padding: 20px;
+    color: #111827;
+  }
+
+  /* Header and footer */
+  header, footer {
+    background: #ffffff;
+    padding: 20px 15px;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+  }
+
+  /* Container max width */
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  /* Logo styling */
+  .logo-icon {
+    background: #2563eb;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  /* Session badge */
+  .session-badge {
+    background: #e0f2fe;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 9999px;
+    font-weight: bold;
+    color: #0284c7;
+  }
+
+  /* Main sections styling */
+  .timer-section, .controls, .progress-section, .settings-section {
+    margin: 30px 0;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.03);
+  }
+
+  /* Timer big text */
+  .timer {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    color: #1e3a8a;
+  }
+
+  /* Buttons in controls */
+  .controls button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    background: #3b82f6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .controls button:hover {
+    background: #2563eb;
+  }
+
+  /* Progress grid */
+  .progress-grid {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  /* Progress card */
+  .progress-card {
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1 1 200px;
+    text-align: center;
+  }
+
+  /* Settings grid */
+  .settings-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* Form group */
+  .form-group {
+    flex: 1;
+  }
+
+  /* Select input */
+  select, input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  /* Table styling for history */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+  }
+
+  th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+
+  th {
+    background-color: #3b82f6;
+    color: white;
+  }
+
+  tr:hover {
+    background-color: #e9f0ff;
+  }
+
+  /* Back button for history page */
+  .back-btn {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .back-btn:hover {
+    background: #2563eb;
+  }
