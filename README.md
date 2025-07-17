@@ -26,7 +26,7 @@ FocusPulse is a simple RESTful API and html pages built with Spring Boot for man
 ---
 
 ## Getting Started
-
+Open the project in IntelliJ IDE, allow project to update depedenices and indexes. Run the project when all initialization is completed.
 ### Prerequisites
 
 - Java JDK 21
