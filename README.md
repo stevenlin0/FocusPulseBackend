@@ -16,10 +16,12 @@ FocusPulse is a simple RESTful API and html pages built with Spring Boot for man
 ## Technologies Used
 
 - Java 21
+- Maven
 - Spring Boot
 - Spring JDBC (`JdbcTemplate`)
 - Lombok
 - SQLite
+- IntelliJ IDE
 
 ---
 
